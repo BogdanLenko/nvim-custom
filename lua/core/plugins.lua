@@ -41,6 +41,8 @@ require("lazy").setup({
 				"rcarriga/nvim-notify",
 				}
 		},
+		{"nvim-tree/nvim-tree.lua"},
+		{"nvim-tree/nvim-web-devicons"}
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
