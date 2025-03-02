@@ -42,7 +42,8 @@ require("lazy").setup({
 				}
 		},
 		{"nvim-tree/nvim-tree.lua"},
-		{"nvim-tree/nvim-web-devicons"}
+		{"nvim-tree/nvim-web-devicons"},
+		{"nvim-treesitter/nvim-treesitter"},
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
