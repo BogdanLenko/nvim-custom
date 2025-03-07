@@ -17,6 +17,16 @@ require('dashboard').setup {
 	config = {
 			header = default_header(),
 			center = {
+				{
+					icon = '󰙅 ',
+					icon_hl = 'Title',
+					desc = 'Open tree',
+					desc_hl = 'String',
+					key = 'e',
+					keymap = 'SPC e',
+					key_hl = 'Number',
+					action = ':NvimTreeOpen'
+			}, 
 				 {
 							icon = '󰈞 ',
 							icon_hl = 'Title',
