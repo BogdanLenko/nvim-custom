@@ -107,6 +107,7 @@ require("lazy").setup({
 						version = '^1.0.0', -- optional: only update when a new 1.x version is released
 					},
 				},
+		{"williamboman/mason.nvim"},
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
