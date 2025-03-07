@@ -4,11 +4,11 @@
 local lspconfig = require('lspconfig')
 lspconfig.ccls.setup{}
 lspconfig.pyright.setup {}
-lspconfig.typescript_language_server.setup {}
+lspconfig.ts_ls.setup {}
+lspconfig.html.setup {}
 lspconfig.prismals.setup {}
-lspconfig.cssls.setup {
-    capabilities = capabilities
-}
+lspconfig.tailwindcss.setup {}
+lspconfig.cssls.setup {}
 lspconfig.golangci_lint_ls.setup {}
 lspconfig.rust_analyzer.setup {
   settings = {
