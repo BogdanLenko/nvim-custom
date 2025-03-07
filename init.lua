@@ -5,7 +5,6 @@ require("core.keymaps")
 
 -- Plugins conf
 require("plugins.mason")
-require("plugins.noice")
 require("plugins.nvim-tree")
 require("plugins.treesitter")
 require("plugins.lsp")

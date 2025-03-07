@@ -23,6 +23,8 @@ vim.keymap.set('i', 'jj', '<Esc>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>s', ':w!<CR>')
 vim.keymap.set('n', '<leader>q', ':q!<CR>')
+vim.keymap.set('n', '<leader>m', ':Mason<CR>')
+vim.keymap.set('n', '<leader>l', ':Lazy<CR>')
 
 -- Tabs
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
