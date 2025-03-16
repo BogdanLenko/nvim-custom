@@ -25,7 +25,7 @@ require('dashboard').setup {
 					key = 'e',
 					keymap = 'SPC e',
 					key_hl = 'Number',
-					action = ':NvimTreeOpen'
+					action = ':Neotree float reveal<CR>'
 			}, 
 				 {
 							icon = '󰈞 ',
