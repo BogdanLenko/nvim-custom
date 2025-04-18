@@ -9,6 +9,7 @@ lspconfig.html.setup {}
 lspconfig.prismals.setup {}
 lspconfig.tailwindcss.setup {}
 lspconfig.cssls.setup {}
+lspconfig.clangd.setup {}
 lspconfig.golangci_lint_ls.setup {}
 lspconfig.rust_analyzer.setup {
   settings = {
